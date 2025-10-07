@@ -7,6 +7,86 @@
 }
 
 body {
-    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
     color: white;
+}
+
+header {
+    overflow: visible;
+}
+
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 130px;
+    background-image: url("../assets/nav-bg.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 1000;
+}
+
+.navbg {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+
+.logo {
+    float: left;
+
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.secondsec {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.leftsec {
+    width: 400px;
+    background-color: white;
+}
+
+.summit23 {
+    width: 400px;
+    margin: 50px 0;
+}
+
+.summit24 {
+    width: 390px;
+    margin: 50px 0;
+}
+
+.summit25 {
+    width: 350px;
+    margin: 50px 0;
+}
+
+.midsec {
+    width: 400px;
+    background-color: white;
+}
+
+.rightsec {
+    width: 400px;
+    background-color: white;
 }
