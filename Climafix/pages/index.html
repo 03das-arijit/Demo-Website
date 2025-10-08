@@ -5,21 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Climafix</title>
     <link rel="stylesheet" href="../components/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <header>
       <nav>
         <div class="left">
-          <img src="../assets/Logo.png" alt="logo" class="logo" />
+          <a href="index.html">
+            <img src="../assets/Logo.png" alt="Climafix Logo" class="logo" />
+          </a>
         </div>
+
         <div class="right">
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Blog</li>
-            <li>Summit</li>
-            <li>Videos</li>
-            <li>Increase</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://climafix.in/about">About</a></li>
+            <li><a href="https://www.climafix.in/blog/">Blog</a></li>
+            <li><a href="https://www.climafix.in/summit/">Summit</a></li>
+            <li><a href="https://www.climafix.in/videos">Videos</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropbtn">CLIMAFIX500 ▾</a>
+              <div class="dropdown-content">
+                <a href="https://www.climafix.in/ref/cis/"
+                  >Climate Innovations (CIS)</a
+                >
+                <a href="https://www.climafix.in/ref/cis/rep/da/"
+                  >C500 Reports</a
+                >
+              </div>
+            </li>
+
+            <li><a href="https://climafix.in/s/st/increase/">Increase</a></li>
           </ul>
         </div>
       </nav>
@@ -27,22 +47,155 @@
 
     <main>
       <section class="firstsec">
-        <img src="../assets/Climafix banner.png" alt="banner" class="banner" />
+        <img
+          src="../assets/Climafix banner.png"
+          alt="Climafix Banner"
+          class="banner"
+        />
       </section>
+
       <section class="secondsec">
-        <div class="leftsec">
-          Climafix Summit 2023
-          <img src="../assets/2023.png" alt="2023" class="summit23" />
+        <h2 class="summit-title">Climafix Summits</h2>
+
+        <div class="card-grid">
+          <a
+            href="https://climafix.in/summit/2023/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="card-box summit-card"
+          >
+            <img
+              src="../assets/2023.png"
+              alt="Summit 2023"
+              class="summit-img"
+            />
+            <h3>Climafix Summit 2023</h3>
+            <p>1000+ Delegates 500+ Startups 150+ Investors</p>
+          </a>
+
+          <a
+            href="https://climafix.in/summit/2024/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="card-box summit-card"
+          >
+            <img
+              src="../assets/2024.png"
+              alt="Summit 2024"
+              class="summit-img"
+            />
+            <h3>Climafix Summit 2024</h3>
+            <p>700 Investors, Startups and Delegates</p>
+          </a>
+
+          <a
+            href="https://climafix.in/summit/2025/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="card-box summit-card"
+          >
+            <img
+              src="../assets/2025.png"
+              alt="Summit 2025"
+              class="summit-img"
+            />
+            <h3>Climafix Summit 2025</h3>
+            <p>Click Now to meet 400+ Startups, 150+ Investors and More</p>
+          </a>
         </div>
-        <div class="midsec">
-          Climafix Summit 2024
-          <img src="../assets/2024.png" alt="2023" class="summit24" />
+      </section>
+
+      <section class="stakeholders-section">
+        <h2 class="section-title">Stakeholders</h2>
+
+        <div class="card-grid">
+          <div class="card-box">
+            <img
+              src="../assets/Government.png"
+              alt="Government"
+              class="card-icon"
+            />
+            <h3>Government & Policy Makers</h3>
+            <p>
+              Enabling evidence-based policy decisions through climate
+              intelligence.
+            </p>
+          </div>
+
+          <div class="card-box">
+            <img
+              src="../assets/Industry.png"
+              alt="Businesses"
+              class="card-icon"
+            />
+            <h3>Businesses & Investors</h3>
+            <p>
+              Driving sustainable growth and investment through climate
+              innovation insights.
+            </p>
+          </div>
+
+          <div class="card-box">
+            <img
+              src="../assets/Researchers.png"
+              alt="Researchers"
+              class="card-icon"
+            />
+            <h3>Researchers & Academia</h3>
+            <p>
+              Fostering collaboration and knowledge-sharing across climate
+              sectors.
+            </p>
+          </div>
         </div>
-        <div class="rightsec">
-          Climafix Summit 2025
-          <img src="../assets/2025.png" alt="2023" class="summit25" />
+      </section>
+
+      <section class="intelligence">
+        <h2 class="intelligence-title">Types of Intelligence</h2>
+
+        <div class="intelligence-grid">
+          <div class="intel-box">
+            <img
+              src="../assets/Reports.png"
+              alt="Reports Icon"
+              class="intel-icon"
+            />
+            <h3>Reports</h3>
+            <p>
+              Focused reports around climate innovation for specific sectors.
+            </p>
+          </div>
+
+          <div class="intel-box">
+            <img
+              src="../assets/Updates.png"
+              alt="Updates Icon"
+              class="intel-icon"
+            />
+            <h3>Updates</h3>
+            <p>
+              Curated climate innovation from across the world & across climate
+              sectors.
+            </p>
+          </div>
+
+          <div class="intel-box">
+            <img
+              src="../assets/Consulting.png"
+              alt="Consulting Icon"
+              class="intel-icon"
+            />
+            <h3>Consulting</h3>
+            <p>Customized research & consulting for specific stakeholders.</p>
+          </div>
         </div>
       </section>
     </main>
+
+    <script src="../components/script.js"></script>
+
+    <footer>
+      <p>© 2024 Climafix. All rights reserved.</p>
+    </footer>
   </body>
 </html>
