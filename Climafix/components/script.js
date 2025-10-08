@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
       dropdownContent.classList.toggle("show");
     });
 
+
     window.addEventListener("click", (e) => {
       if (!e.target.matches(".dropbtn")) {
         if (dropdownContent.classList.contains("show")) {

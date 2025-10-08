@@ -176,7 +176,6 @@ nav ul li a:hover {
     border-radius: 8px;
 }
 
-/* Responsive for mobile */
 @media (max-width: 768px) {
     .summit-grid {
         flex-direction: column;
@@ -270,7 +269,6 @@ nav ul li a:hover {
     line-height: 1.5;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .card-grid {
         flex-direction: column;
